@@ -1,0 +1,38 @@
+.main{
+    position: relative;
+    height: auto;
+    width: border-box;
+    display: flex;
+    /*background-color: deepskyblue;*/
+}
+
+button{
+    position: absolute;
+    margin: 133px 0px 0px 164px;
+}
+
+.main div{
+    width: fit-content;
+    align-content: center;
+    flex: 1;
+    background-color: deepskyblue;
+}
+
+.main p{
+    height:auto;
+    width: 120px;
+    align-content: center;
+}
+
+.paragraphMarg{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.paragraphMarg a{
+    width: 20px;
+}
+
+.paragraphMarg h1{
+    width: auto;
+}
