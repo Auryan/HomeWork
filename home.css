@@ -1,10 +1,11 @@
 .main{
     position: relative;
-    /*height: 50px;*/
-    /*width: 350px;*/
+    height: auto;
+    /*width: 1026px;*/
     /*border: deepskyblue;*/
     border-style: solid;
     border-color: deepskyblue;
+    width: 99%;
     /*border-width: 2px;*/
     /*display: inline-block;*/
     /*background-color: deepskyblue;*/
@@ -18,11 +19,12 @@ button{
 div{
     padding: 2px;
     display: inline-block;
+    vertical-align: top;
+    width: auto;
 }
 
 div > h1{
-    display: inline-block;
-    vertical-align: sub;
+    color: darkblue;
 }
 
 div > a{
@@ -30,3 +32,12 @@ div > a{
     float: right;
 }
 
+.flot-to-right{
+    float: top;
+    vertical-align: bottom;
+    padding: 5%;
+}
+
+div > a:link{
+    color: deepskyblue;
+}
