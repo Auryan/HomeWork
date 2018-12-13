@@ -23,11 +23,11 @@ div{
     width: auto;
 }
 
-div > h1{
+div>h1{
     color: darkblue;
 }
 
-div > a{
+div>a{
     padding: 2px;
     float: right;
 }
@@ -38,6 +38,14 @@ div > a{
     padding: 5%;
 }
 
-div > a:link{
+div>a:link{
     color: deepskyblue;
+}
+
+div>a:visited{
+    color: red;
+}
+
+div>a:hover{
+    color: blue;
 }
